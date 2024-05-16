@@ -10,11 +10,11 @@ const nextConfig = {
       },
       {
         source: "/blog",
-        destination: `http://localhost:4000/blog`,
+        destination: `${BLOG_URL}/blog`,
       },
       {
         source: "/blog/:path*",
-        destination: `http://localhost:4000/blog/:path*`,
+        destination: `${BLOG_URL}/blog/:path*`,
       },
     ];
   },
